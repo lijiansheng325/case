@@ -1,0 +1,695 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>交互规范</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/交互规范/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/交互规范/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u10" class="ax_default _三级标题">
+        <div id="u10_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:18px;text-decoration:none;color:#333333;">APP交互规范</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u12" class="ax_default _文本段落">
+        <div id="u12_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u13" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">1.返回键定义</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">&nbsp;&nbsp; 在一级页面按返回键返回桌面</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">&nbsp;&nbsp; 在二级页面按返回键返回一级页面</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">&nbsp;&nbsp; 在三级页面按返回键返回二级页面</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">&nbsp;&nbsp; 在弹窗（包括输入浮层，和输入法）状态下按返回键，取消弹窗和浮层 </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">2.浮窗定义</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">&nbsp;&nbsp; 浮窗状态下，点击任何空白部位（没有被浮窗和输入法覆盖，浮窗退出</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3.一级页面为：主页，设备列表，短信，设置</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u14" class="ax_default _三级标题">
+        <div id="u14_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:18px;text-decoration:none;color:#333333;">未插入SIM卡交互</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u16" class="ax_default _文本段落">
+        <div id="u16_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">1. 如未插入SIM卡，短信功能不可进入或操作</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">2. 在短信功能中，如未插入全部SIM卡，无法切换到未插入SIM卡</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u18" class="ax_default heading_3">
+        <div id="u18_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u19" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:18px;text-decoration:none;color:#333333;">主页面切换</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u20" class="ax_default sticky_2">
+        <div id="u20_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u21" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u22" class="ax_default arrow" WidgetHeight="5" WidgetWidth="40" WidgetCenterX="90" WidgetCenterY="627.5">
+        <div id="u22p000" class="ax_vector_shape" WidgetTopLeftX="-0.401960784313726" WidgetTopLeftY="-0.227272727272727" WidgetTopRightX="0.382352941176471" WidgetTopRightY="-0.227272727272727" WidgetBottomLeftX="-0.401960784313726" WidgetBottomLeftY="0.227272727272727" WidgetBottomRightX="0.382352941176471" WidgetBottomRightY="0.227272727272727">
+          <img id="u22p000_img" class="img " src="images/交互规范/u22p000.png"/>
+        </div>
+        <div id="u22p001" class="ax_vector_shape" WidgetTopLeftX="-0.3" WidgetTopLeftY="-0.1" WidgetTopRightX="1.3" WidgetTopRightY="-0.1" WidgetBottomLeftX="-0.3" WidgetBottomLeftY="0.1" WidgetBottomRightX="1.3" WidgetBottomRightY="0.1">
+          <img id="u22p001_img" class="img " src="images/交互规范/u22p001.png"/>
+        </div>
+        <div id="u22p002" class="ax_vector_shape" WidgetTopLeftX="-1.34" WidgetTopLeftY="-0.1" WidgetTopRightX="0.26" WidgetTopRightY="-0.1" WidgetBottomLeftX="-1.34" WidgetBottomLeftY="0.1" WidgetBottomRightX="0.26" WidgetBottomRightY="0.1">
+          <img id="u22p002_img" class="img " src="images/交互规范/u22p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24" class="ax_default sticky_2">
+        <div id="u24_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u25" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u26" class="ax_default label">
+        <div id="u26_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:14px;text-decoration:none;color:#333333;">滑动</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u28" class="ax_default sticky_2">
+        <div id="u28_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u30" class="ax_default label">
+        <div id="u30_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:14px;text-decoration:none;color:#333333;">滑动</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Left Arrow) -->
+      <div id="u32" class="ax_default arrow">
+        <img id="u32_img" class="img " src="images/交互规范/u32.png"/>
+        <!-- Unnamed () -->
+        <div id="u33" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u34" class="ax_default sticky_2">
+        <div id="u34_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u35" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u36" class="ax_default label">
+        <div id="u36_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:14px;text-decoration:none;color:#333333;">主页，设备，短信，设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u38" class="ax_default heading_3">
+        <div id="u38_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:18px;text-decoration:none;color:#333333;">输入窗口规范</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u40" class="ax_default paragraph">
+        <div id="u40_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">1.任何需要输入信息的选项，弹出键盘之后，遮盖标签栏</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">2.如需要输入窗口随键盘弹出，上移</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3.按返回键放弃编辑，再按返回键关闭键盘，标签栏恢复</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">4.所有需要输入信息的界面（短信除外），弹出输入框均如右图所示</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">5.按对号确定信息输入</span></p><p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:13px;text-decoration:none;color:#FF0000;">6.此规则不试用于WIFI、管理员设置页面和初始化流程</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">7.弹出窗口位置位于屏幕上部50%正中，如图所示</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u42" class="ax_default">
+        <div id="u42_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u44" class="ax_default">
+        <input id="u44_input" type="text" value="我的乐MAX"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u45" class="ax_default">
+        <img id="u45_img" class="img " src="images/交互规范/u45.png"/>
+        <!-- Unnamed () -->
+        <div id="u46" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u47" class="ax_default">
+        <div id="u47_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u49" class="ax_default">
+        <div id="u49_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u50" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">主页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u51" class="ax_default">
+        <div id="u51_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u52" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u53" class="ax_default">
+        <div id="u53_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">短信</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u55" class="ax_default">
+        <div id="u55_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u57" class="ax_default" WidgetHeight="1" WidgetWidth="395" WidgetCenterX="547.5" WidgetCenterY="1099.5">
+        <div id="u57p000" class="ax_vector_shape" WidgetTopLeftX="-0.49749373433584" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.492481203007519" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.49749373433584" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.492481203007519" WidgetBottomRightY="0.166666666666667">
+          <img id="u57p000_img" class="img " src="images/交互规范/u57p000.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u58" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u59" class="ax_default" WidgetHeight="1" WidgetWidth="395" WidgetCenterX="547.5" WidgetCenterY="1201.5">
+        <div id="u59p000" class="ax_vector_shape" WidgetTopLeftX="-0.49749373433584" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.492481203007519" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.49749373433584" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.492481203007519" WidgetBottomRightY="0.166666666666667">
+          <img id="u59p000_img" class="img " src="images/交互规范/u57p000.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u60" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u61" class="ax_default" WidgetHeight="1" WidgetWidth="395" WidgetCenterX="547.5" WidgetCenterY="1304.5">
+        <div id="u61p000" class="ax_vector_shape" WidgetTopLeftX="-0.49749373433584" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.492481203007519" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.49749373433584" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.492481203007519" WidgetBottomRightY="0.166666666666667">
+          <img id="u61p000_img" class="img " src="images/交互规范/u57p000.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u62" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u63" class="ax_default" WidgetHeight="1" WidgetWidth="395" WidgetCenterX="547.5" WidgetCenterY="1405.5">
+        <div id="u63p000" class="ax_vector_shape" WidgetTopLeftX="-0.49749373433584" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.492481203007519" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.49749373433584" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.492481203007519" WidgetBottomRightY="0.166666666666667">
+          <img id="u63p000_img" class="img " src="images/交互规范/u57p000.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u64" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u65" class="ax_default" WidgetHeight="1" WidgetWidth="395" WidgetCenterX="547.5" WidgetCenterY="1508.5">
+        <div id="u65p000" class="ax_vector_shape" WidgetTopLeftX="-0.49749373433584" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.492481203007519" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.49749373433584" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.492481203007519" WidgetBottomRightY="0.166666666666667">
+          <img id="u65p000_img" class="img " src="images/交互规范/u57p000.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u66" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u67" class="ax_default">
+        <div id="u67_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u68" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u69" class="ax_default">
+        <div id="u69_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u70" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u71" class="ax_default">
+        <div id="u71_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u72" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u73" class="ax_default">
+        <div id="u73_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u74" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u75" class="ax_default">
+        <div id="u75_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u76" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u77" class="ax_default">
+        <div id="u77_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u78" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u79" class="ax_default">
+        <div id="u79_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u80" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">流量用尽</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u81" class="ax_default">
+        <div id="u81_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u82" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3M/S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u83" class="ax_default">
+        <div id="u83_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u84" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3M/S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u85" class="ax_default">
+        <div id="u85_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u86" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3M/S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u87" class="ax_default">
+        <div id="u87_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u88" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3M/S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u89" class="ax_default">
+        <div id="u89_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u90" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3M/S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u91" class="ax_default">
+        <div id="u91_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u92" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">3M/S</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u93" class="ax_default">
+        <img id="u93_img" class="img " src="images/交互规范/u93.png"/>
+        <!-- Unnamed () -->
+        <div id="u94" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u95" class="ax_default">
+        <img id="u95_img" class="img " src="images/交互规范/u95.png"/>
+        <!-- Unnamed () -->
+        <div id="u96" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u97" class="ax_default">
+        <img id="u97_img" class="img " src="images/交互规范/u97.png"/>
+        <!-- Unnamed () -->
+        <div id="u98" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u99" class="ax_default">
+        <img id="u99_img" class="img " src="images/交互规范/u95.png"/>
+        <!-- Unnamed () -->
+        <div id="u100" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u101" class="ax_default">
+        <img id="u101_img" class="img " src="images/交互规范/u95.png"/>
+        <!-- Unnamed () -->
+        <div id="u102" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u103" class="ax_default">
+        <img id="u103_img" class="img " src="images/交互规范/u95.png"/>
+        <!-- Unnamed () -->
+        <div id="u104" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u105" class="ax_default">
+        <img id="u105_img" class="img " src="images/交互规范/u97.png"/>
+        <!-- Unnamed () -->
+        <div id="u106" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u107" class="ax_default">
+        <div id="u107_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u108" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">流量用尽</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u109" class="ax_default">
+        <div id="u109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u110" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">剩余70M</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u111" class="ax_default">
+        <div id="u111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u112" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">已用100M</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u113" class="ax_default">
+        <div id="u113_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u114" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">已用100M</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u115" class="ax_default">
+        <div id="u115_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u116" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">已用100M</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u117" class="ax_default heading_3">
+        <div id="u117_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u118" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:11px;text-decoration:none;color:#333333;">我的乐MAX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u119" class="ax_default heading_3">
+        <div id="u119_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u120" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:11px;text-decoration:none;color:#333333;">我的乐MAX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u121" class="ax_default heading_3">
+        <div id="u121_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u122" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:11px;text-decoration:none;color:#333333;">我的乐MAX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u123" class="ax_default heading_3">
+        <div id="u123_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u124" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:11px;text-decoration:none;color:#333333;">我的乐MAX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u125" class="ax_default heading_3">
+        <div id="u125_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u126" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:18px;text-decoration:none;color:#333333;">我的乐MAX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u127" class="ax_default heading_3">
+        <div id="u127_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u128" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;font-style:normal;font-size:18px;text-decoration:none;color:#333333;">我的乐MAX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u129" class="ax_default">
+        <div id="u129_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u130" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u131" class="ax_default">
+        <input id="u131_input" type="text" value="1000M"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u132" class="ax_default">
+        <img id="u132_img" class="img " src="images/交互规范/u45.png"/>
+        <!-- Unnamed () -->
+        <div id="u133" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u134" class="ax_default">
+        <img id="u134_img" class="img " src="images/交互规范/u134.png"/>
+        <!-- Unnamed () -->
+        <div id="u135" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u136" class="ax_default">
+        <div id="u136_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u137" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">主页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u138" class="ax_default">
+        <div id="u138_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u139" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设备列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u140" class="ax_default">
+        <div id="u140_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u141" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">短信</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u142" class="ax_default">
+        <div id="u142_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u143" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;text-decoration:none;color:#333333;">设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u144" class="ax_default paragraph">
+        <div id="u144_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u145" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:20px;text-decoration:none;color:#333333;">点击4个标签在4个页面之间跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u146" class="ax_default paragraph">
+        <div id="u146_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u147" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:20px;text-decoration:none;color:#333333;">左右滑动在4个页面之间跳转</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
